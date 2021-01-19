@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/79f677578d0b19f46cb5d.jpg"
+SAITAMA_IMG = "https://t.me/OtakuTalk/370595"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
@@ -219,8 +219,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/ICE-Son-Goku/DragonBallChatBot")
+                             text="Owner",
+                             url="https://t.me/Goku_kun)
                      ]]))
     else:
         update.effective_message.reply_text(
