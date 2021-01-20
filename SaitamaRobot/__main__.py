@@ -217,11 +217,7 @@ def start(update: Update, context: CallbackContext):
                              text="🧾 Getting started guide",
                              url="https://t.me/SaiyansAssociation_Updates/7")
                      ],
-                     [
-                         InlineKeyboardButton(
-                             text="Owner",
-                             url="https://t.me/Goku_kun)
-                     ]]))
+                    
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
